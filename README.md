@@ -12,7 +12,7 @@
   ```
   
   执行该命令是为了从github上迁出TopoComponent到本地。
- - 打开eclipse，制定workspace为D:\github\TopoComponent
+ - 打开eclipse，指定workspace为D:\github
  
  - 在eclipse中配置EGit
  
@@ -48,4 +48,5 @@
 ![分支策略](img/branch.png)
 
 ##### 4. 分支切换
-git可以很方便的进行分支之间的切换。
+git可以很方便的进行分支之间的切换。分支切换后当前代码自动变成分支的代码，不用和svn一样，再重新新建一个workspace。
+![切换分支](img/switch_branch2.png)
