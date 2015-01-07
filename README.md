@@ -50,3 +50,11 @@
 ##### 4. 分支切换
 git可以很方便的进行分支之间的切换。分支切换后当前代码自动变成分支的代码，不用和svn一样，再重新新建一个workspace。
 ![切换分支](img/switch_branch2.png)
+
+##### 5. pull request
+前面讲的是自己属于某一个项目的情况，如果想往某一个不属于自己的项目中提交代码，那么就要用到pull request。
+比如你需要给 z00229725/TopoComponent贡献你的代码，需要先fork一份到自己的仓库中，比如fork到 xxx/TopoComponent。
+接下来你就可以提交代码到自己的库 xxx/TopoComponent，当所有的修改完成后，你希望z00229725/TopoComponent的官方库能接受你的修改，你就可以在GitHub上发起一个pull request。当然，对方是否接受你的pull request就不一定了。
+
+
+
